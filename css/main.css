@@ -335,11 +335,14 @@ html {
     position: relative;
     opacity: 1;
     margin: 0;
+    outline: 1px solid black;
+    outline-offset: 0px;
+    transition: outline-offset .3s;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active{
     background-color: black !important;
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
     outline: 1px solid black;
     outline-offset: 5px;
 }
