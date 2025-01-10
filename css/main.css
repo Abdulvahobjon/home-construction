@@ -330,28 +330,20 @@ html {
 }
 .swiper-pagination-bullet{
     transform: scale(1) !important;
-    width: 12px;
-    height: 12px;
+    width: 4px;
+    height: 4px;
     position: relative;
     opacity: 1;
+    margin: 0;
 }
 .swiper-pagination-bullet.swiper-pagination-bullet-active{
     background-color: black !important;
-    width: 12px;
-    height: 12px;
+    width: 6px;
+    height: 6px;
+    outline: 1px solid black;
+    outline-offset: 5px;
 }
-.swiper-pagination-bullet.swiper-pagination-bullet-active::after{
-    content: "";
-    width: 14px;
-    height: 14px;
-    border: 1px solid #000;
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    transform: scale(1.4);
-    border-radius: 50%;
 
-}
 /* swiper end swiper-pagination-bullet-active*/
 
 /* california end */
