@@ -6,7 +6,7 @@ var swiper = new Swiper(".mySwiper", {
         prevEl: ".swiper-button-prev1",
     },
     pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper-pagination-california",
         clickable: true,
     },
     loop: true,
