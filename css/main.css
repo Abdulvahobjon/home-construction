@@ -381,7 +381,6 @@ html {
 .benefits-container {
   max-width: 1580px;
   margin: auto;
-  padding: 15px;
 }
 
 .benefits-title {
@@ -400,7 +399,7 @@ html {
 .benefits-item {
   flex: 0 0 33.333%;
   max-width: 33.333%;
-  padding: 0 40px;
+  padding: 40px;
 }
 
 .benefits-item img {
