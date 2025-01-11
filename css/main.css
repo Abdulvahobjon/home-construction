@@ -5,9 +5,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body,
 html {
   overflow-x: hidden;
@@ -67,6 +69,7 @@ html {
   color: white;
   text-decoration: none;
 }
+
 .nav-link:hover {
   opacity: 0.7;
 }
@@ -112,9 +115,11 @@ html {
   text-decoration: none;
   transition: opacity 0.3s;
 }
+
 .hero-link:hover {
   opacity: 0.6;
 }
+
 .hero-btn {
   width: 100px;
   height: 100px;
@@ -127,12 +132,15 @@ html {
   justify-content: center;
   transition: transform 0.3s;
 }
+
 .hero-btn img {
   width: 24px;
 }
+
 .hero-btn:hover {
   transform: scale(1.1);
 }
+
 /* hero end */
 
 /* product start */
@@ -140,6 +148,7 @@ html {
   padding-top: 123px;
   padding-bottom: 123px;
 }
+
 .product-container {
   max-width: 1404px;
   margin-left: auto;
@@ -244,9 +253,11 @@ html {
   justify-content: center;
   transition: transform 0.3s;
 }
+
 .about-btn img {
   width: 24px;
 }
+
 .about-btn:hover {
   transform: scale(1.1);
 }
@@ -273,6 +284,7 @@ html {
   transition: transform .3s;
   user-select: none;
 }
+
 .california-card-img {
   width: 100%;
   height: 100%;
@@ -283,9 +295,11 @@ html {
   transition: transform .3s;
 
 }
+
 .california-card:hover .california-card-img {
-    transform: scale(1.12);
+  transform: scale(1.12);
 }
+
 .california-card-title {
   position: relative;
   z-index: 11;
@@ -298,6 +312,7 @@ html {
   color: white;
   margin-bottom: 12px;
 }
+
 .california-card-heading {
   position: relative;
   z-index: 11;
@@ -309,11 +324,12 @@ html {
   text-align: center;
   color: white;
 }
+
 .california-card-date {
   position: relative;
   z-index: 11;
   margin-top: auto;
-  font-family: Inter , sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -321,32 +337,91 @@ html {
   text-align: left;
   color: white;
 }
-.swiper-pagination-california{
-    padding-top: 20px;
-    justify-content:center  !important;
-    display: flex;
-    padding-bottom: 20px;
-    gap: 10px;
+
+.swiper-pagination-california {
+  padding-top: 20px;
+  justify-content: center !important;
+  display: flex;
+  padding-bottom: 20px;
+  gap: 10px;
 }
-.swiper-pagination-bullet{
-    transform: scale(1) !important;
-    width: 4px;
-    height: 4px;
-    position: relative;
-    opacity: 1;
-    margin: 0;
-    outline: 1px solid black;
-    outline-offset: 0px;
-    transition: outline-offset .3s;
+
+.swiper-pagination-bullet {
+  transform: scale(1) !important;
+  width: 4px;
+  height: 4px;
+  position: relative;
+  opacity: 1;
+  margin: 0;
+  outline: 1px solid black;
+  outline-offset: 0px;
+  transition: outline-offset .3s;
 }
-.swiper-pagination-bullet.swiper-pagination-bullet-active{
-    background-color: black !important;
-    width: 4px;
-    height: 4px;
-    outline: 1px solid black;
-    outline-offset: 5px;
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: black !important;
+  width: 4px;
+  height: 4px;
+  outline: 1px solid black;
+  outline-offset: 5px;
 }
 
 /* swiper end swiper-pagination-bullet-active*/
 
 /* california end */
+
+/* benefits start */
+.benefits {
+  background-color: #f5f6f8;
+  padding: 130px 0;
+  /* instead of: Apercu, sans-serif */
+  font-family: Inter, sans-serif;
+}
+
+.benefits-container {
+  max-width: 1580px;
+  margin: auto;
+}
+
+.benefits-title {
+  margin-bottom: 100px;
+  font-size: 100px;
+  font-weight: 300;
+  line-height: 1;
+  color: #21201e;
+  text-align: center;
+}
+
+.benefits-items {
+  display: flex;
+}
+
+.benefits-item {
+  flex: 0 0 33.333%;
+  max-width: 33.333%;
+  padding: 40px;
+}
+
+.benefits-item img {
+  display: inline-block;
+  display: block;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.benefits-item .title {
+  color: #21201e;
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.benefits-item p {
+  color: #21201e;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+  opacity: .7;
+}
+
+/* benefits end */
