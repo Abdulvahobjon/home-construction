@@ -402,13 +402,12 @@ input {
 }
 
 .benefits-items {
-  display: flex;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 33px;
 }
 
 .benefits-item {
-  flex: 0 0 33.333%;
-  max-width: 33.333%;
   padding: 40px 0;
 }
 
