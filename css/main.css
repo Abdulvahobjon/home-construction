@@ -14,7 +14,11 @@ body,
 html {
   overflow-x: hidden;
 }
-
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 input {
   font-family: inherit;
 }
@@ -29,6 +33,7 @@ input {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  min-height: 90vh;
 }
 
 /* header start */
@@ -36,7 +41,10 @@ input {
 .header {
   padding-top: 25px;
   padding-bottom: 25px;
+  background-color: #090B19;
 }
+
+
 
 .header-container {
   max-width: 1404px;
@@ -76,19 +84,32 @@ input {
   letter-spacing: 3px;
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .nav-link:hover {
   opacity: 0.7;
 }
 
+@media (screen) {
+  
+  .wrapper {
+    
+  }
+
+}
+
 /* header end */
+
+
 
 /* hero start */
 .hero {
   padding-top: 50px;
   padding-bottom: 100px;
 }
+
+
 
 .hero-text {
   font-family: Inter, sans-serif;
@@ -98,6 +119,7 @@ input {
   letter-spacing: 4px;
   color: white;
   margin-bottom: 54px;
+  text-transform: uppercase;
 }
 
 .hero-title {
@@ -390,6 +412,7 @@ input {
   max-width: 1580px;
   margin: auto;
   padding: 15px;
+
 }
 
 .benefits-title {
@@ -439,6 +462,7 @@ input {
 footer {
   background-color: #090B19;
   font-family: "Poppins", serif;
+  margin-top: auto;
 }
 
 .footer-container {
@@ -540,3 +564,16 @@ footer .icons a:hover {
   opacity: 0.7;
 }
 /* footer end */
+
+.hero-page {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.hero-page-title {
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 64px;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
