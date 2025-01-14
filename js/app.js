@@ -14,8 +14,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 
-const button = document.getElementById('scrollBtn');
-button.addEventListener('click', (e) => {
+const scrollBtn = document.getElementById('scrollBtn');
+scrollBtn?.addEventListener('click', (e) => {
     e.preventDefault(); // Standart harakatni to'xtatadi
     document.querySelector('#section2').scrollIntoView({
         behavior: 'smooth'

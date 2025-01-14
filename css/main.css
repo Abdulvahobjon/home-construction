@@ -23,8 +23,13 @@ body {
   font-family: Inter, sans-serif;
 }
 
-input {
+input,
+button {
   font-family: inherit;
+}
+
+button {
+  cursor: pointer;
 }
 
 ::placeholder {
