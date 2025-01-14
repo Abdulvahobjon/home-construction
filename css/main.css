@@ -86,7 +86,7 @@ img {
 .nav-list {
   display: flex;
   align-items: center;
-  gap: 64px;
+  gap: 44px;
   list-style: none;
 }
 
@@ -99,6 +99,7 @@ img {
   color: white;
   text-decoration: none;
   text-transform: uppercase;
+  display: flex;
 }
 
 .nav-link:hover {
