@@ -19,7 +19,7 @@ filterButtons.forEach(filterButton => {
                 } else {
                     item.style.display = "none";
                 }
-                setTimeout(() => item.classList.remove("hidden"), 10);
+                setTimeout(() => item.classList.remove("hidden"), 20);
             }, 200);
         });
     });
