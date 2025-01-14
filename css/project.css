@@ -1,0 +1,78 @@
+/* filter buttons start */
+a {
+    outline: none;
+}
+
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+.filter-btn {
+    background: #f2f2f2;
+    color: #000000;
+    border: none;
+    padding: 8px 20px;
+    outline: none;
+    transition: all 0.3s ease;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+.filter-btn-dark {
+    background-color: #444444;
+    color: #ffffff;
+}
+
+.filter-btn-dark.active {
+    background-color: #000000;
+}
+
+/* filter buttons end */
+
+/* gallery start */
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 22px;
+    margin-bottom: 48px;
+}
+
+.gallery .item {
+    transition: all 0.3s ease;
+}
+
+.gallery .item a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease-in-out;
+}
+
+.gallery .item-content {
+    text-align: center;
+    padding: 10px;
+}
+
+.gallery .item-title a {
+    font-weight: 400;
+    font-size: 18px;
+    color: #3a3a3a;
+}
+
+.gallery .item p {
+    font-style: italic;
+    color: #110000;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* gallery end */
