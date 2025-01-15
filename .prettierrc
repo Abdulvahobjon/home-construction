@@ -1,0 +1,19 @@
+{
+    "tabWidth": 4,
+    "endOfLine": "lf",
+    "printWidth": 120,
+    "singleQuote": false,
+    "arrowParens": "avoid",
+    "trailingComma": "es5",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "prettier/prettier": [
+      "error",
+      {},
+      {
+        "usePrettierrc": false,
+        "eslint.validate": ["json", { "language": "typescript", "autoFix": true }]
+      }
+    ]
+  }
+  
