@@ -1,0 +1,123 @@
+.request {
+    padding: 130px 0 70px;
+}
+
+.request .row {
+    display: flex;
+}
+
+.request .text {
+    flex: 0 0 30%;
+    max-width: 30%;
+    padding-inline: 15px;
+}
+
+.request .text h2 {
+    font-size: 90px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.request .text p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    max-width: 75%;
+    opacity: .7;
+}
+
+.request .form {
+    display: flex;
+    flex-grow: 1;
+    padding-left: 200px;
+}
+
+.request .form form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.request .form .form-group {
+    margin-bottom: 20px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    opacity: .7;
+    padding: 0 30px;
+    transition: opacity .4s;
+}
+
+.request .form .form-group:hover {
+    opacity: 1;
+}
+
+.request .form .form-group.half {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.request .form .form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.request .form .form-group input,
+.request .form .form-group textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid hsla(0, 0%, 0%, 0.4);
+    font-size: 16px;
+    font-weight: 300;
+    height: 46px;
+    width: 100%;
+}
+
+.request .form .form-group textarea {
+    height: 160px;
+    padding-top: 10px;
+    resize: none;
+}
+
+.request .form .button {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+    width: 100%;
+}
+
+.request .form .button button {
+    align-items: center;
+    background-color: transparent;
+    border: 0;
+    display: flex;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    color: #090b19;
+}
+
+.request .form .button button i {
+    display: block;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.request .form .button button:before {
+    content: "";
+    background: #090b19;
+    bottom: -7px;
+    display: block;
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transition: width .4s;
+    width: 0;
+}
+
+.request .form .button button.active:before,
+.request .form .button button:hover:before {
+    width: calc(100% - 30px);
+}
