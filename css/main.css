@@ -579,3 +579,16 @@ footer .icons a:hover {
   text-transform: uppercase;
   letter-spacing: 1.2px;
 }
+
+@media screen and (max-width: 1024px) {
+  .hero-page-title {
+    font-size: 50px;
+    margin-bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-page-title {
+    font-size: 40px;
+  }
+}

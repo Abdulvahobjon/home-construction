@@ -10,10 +10,6 @@ section h6 {
     font-weight: 300;
 }
 
-.custom-home-section .container {
-    max-width: 1400px;
-}
-
 .custom-home-section p {
     color: #444;
     font-size: 16px;
@@ -23,9 +19,10 @@ section h6 {
 }
 
 .custom-home-section .container {
+    max-width: 1400px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 30px 0;
+    padding: 30px;
 }
 
 /* custom home header start */
@@ -67,6 +64,14 @@ section h6 {
     font-size: 30px;
 }
 
+.approach-image img {
+    height: 100%;
+}
+
+.our-experience .approach-image {
+    order: 1;
+}
+
 /* custom home sections end */
 
 /* additions start */
@@ -98,3 +103,51 @@ section h6 {
 }
 
 /* additions end */
+
+/* media start */
+@media screen and (max-width: 900px) {
+    .custom-home-section .container {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .custom-home-section .container {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+
+    .custom-home-title {
+        text-align: left;
+    }
+
+    .approach-image img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .our-experience .approach-image {
+        order: 0;
+    }
+
+    .custom-home-section h2 {
+        font-size: 22px;
+    }
+
+    .custom-home-description.custom-home-description {
+        padding: 0 20px 40px;
+        max-width: 400px;
+        margin: auto;
+        line-height: 1.4;
+    }
+
+    .custom-home-section p {
+        line-height: 1.7;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .custom-home-description.custom-home-description {
+        max-width: 100%;
+    }
+}
