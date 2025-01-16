@@ -20,8 +20,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  font-family: Inter, sans-serif;
   color: #090b19;
+  font-family: "Montserrat", sans-serif;
 }
 
 input,
@@ -94,7 +94,6 @@ img {
 }
 
 .nav-link {
-  font-family: Inter, sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -128,7 +127,6 @@ img {
 
 
 .hero-text {
-  font-family: Inter, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -139,7 +137,6 @@ img {
 }
 
 .hero-title {
-  font-family: Inter, sans-serif;
   font-size: 78px;
   font-weight: 600;
   line-height: 93.6px;
@@ -148,7 +145,6 @@ img {
 }
 
 .hero-link {
-  font-family: Inter, sans-serif;
   font-size: 11px;
   font-weight: 400;
   line-height: 20px;
@@ -212,7 +208,6 @@ img {
 }
 
 .product-title {
-  font-family: 'Roboto', sans-serif;
   font-size: 64px;
   margin-bottom: 30px;
   font-weight: 500;
@@ -222,7 +217,6 @@ img {
 
 .product-text {
   color: #7a7a7a;
-  font-family: 'Roboto', sans-serif;
   margin-bottom: 39px;
   font-size: 20px;
   font-weight: 500;
@@ -251,7 +245,6 @@ img {
 }
 
 .about-text {
-  font-family: 'Inter', sans-serif;
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 103px;
@@ -263,7 +256,6 @@ img {
 }
 
 .about-title {
-  font-family: 'Inter', sans-serif;
   color: #ffffff;
   font-size: 48px;
   width: 548px;
@@ -274,7 +266,6 @@ img {
 }
 
 .about-link {
-  font-family: 'Inter', sans-serif;
   color: #ffffff;
   font-size: 12px;
   font-weight: 400;
@@ -349,7 +340,6 @@ img {
 .california-card-title {
   position: relative;
   z-index: 11;
-  font-family: Inter, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -362,7 +352,6 @@ img {
 .california-card-heading {
   position: relative;
   z-index: 11;
-  font-family: Inter, sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
@@ -375,7 +364,6 @@ img {
   position: relative;
   z-index: 11;
   margin-top: auto;
-  font-family: Inter, sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 20px;
@@ -421,7 +409,6 @@ img {
   background-color: #f5f6f8;
   padding: 123px 0;
   /* instead of: Apercu, sans-serif */
-  font-family: Inter, sans-serif;
 }
 
 .benefits-container {
@@ -477,7 +464,6 @@ img {
 /* footer start */
 footer {
   background-color: #090B19;
-  font-family: "Poppins", serif;
   margin-top: auto;
 }
 
@@ -499,7 +485,6 @@ footer .title {
   font-size: 20px;
   line-height: 1.2;
   margin-bottom: 60px;
-  font-family: Inter, sans-serif;
 }
 
 footer p {
@@ -589,7 +574,6 @@ footer .icons a:hover {
 
 .hero-page-title {
   text-align: center;
-  font-family: Inter, sans-serif;
   font-size: 64px;
   margin-bottom: 40px;
   text-transform: uppercase;
