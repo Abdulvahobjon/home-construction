@@ -1,3 +1,4 @@
+/* request section start */
 .request {
     padding: 130px 0 70px;
 }
@@ -98,6 +99,7 @@
     position: relative;
     z-index: 1;
     color: #090b19;
+    font-weight: bold;
 }
 
 .request .form .button button i {
@@ -122,3 +124,116 @@
 .request .form .button button:hover:before {
     width: calc(100% - 30px);
 }
+
+/* request section end */
+
+/* map section start */
+.map {
+    margin: 63px 0 10px;
+}
+
+.map .container {
+    padding: 0;
+    max-width: unset;
+}
+
+.map iframe {
+    width: 100%;
+    aspect-ratio: 3/1;
+    max-height: 50vh;
+    min-height: 250px;
+}
+
+/* map section end */
+
+/* media start */
+@media screen and (max-width: 1440px) {
+    .request {
+        padding: 80px 0 10px;
+    }
+
+    .request .form {
+        padding-left: 150px;
+    }
+
+    .request .text h2 {
+        font-size: 60px;
+        margin-bottom: 30px;
+    }
+
+    .request .form .form-group {
+        padding: 0 15px;
+    }
+
+    .request .text p {
+        font-size: 16px;
+        line-height: 1.4;
+        max-width: 100%;
+    }
+
+    .request .form form {
+        margin: 0 -15px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .request {
+        padding: 60px 0;
+    }
+
+    .request .text {
+        flex: auto;
+    }
+
+    .request .text h2 {
+        font-size: 40px;
+    }
+
+    .request .form {
+        padding-left: 70px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .request {
+        padding: 40px 0;
+    }
+
+    .request .row {
+        flex-wrap: wrap;
+    }
+
+    .request .form form {
+        margin: 0;
+    }
+
+    .request .form {
+        flex: 0 0 100%;
+        flex-grow: unset;
+        max-width: 100%;
+        padding: 0;
+    }
+
+    .request .text {
+        flex: 0 0 100%;
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .request .container {
+        padding: 0 5px;
+    }
+
+    .request .text h2 {
+        font-size: 50px;
+    }
+
+    .request .form .form-group.half {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* media end */

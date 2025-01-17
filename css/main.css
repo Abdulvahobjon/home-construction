@@ -580,6 +580,18 @@ footer .icons a:hover {
   letter-spacing: 1.2px;
 }
 
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .hero-page-title {
     font-size: 50px;
