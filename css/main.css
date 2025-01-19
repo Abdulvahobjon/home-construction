@@ -63,6 +63,11 @@ img {
     padding-top: 25px;
     padding-bottom: 25px;
     background-color: #090b19;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
 }
 
 .header-container {
@@ -115,7 +120,7 @@ img {
 
 /* hero start */
 .hero {
-    padding-top: 60px;
+    padding-top: 120px;
     padding-bottom: 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/wrapper/banner.webp);
     background-position: center;
@@ -926,6 +931,7 @@ footer .icons a:hover {
 /* footer end */
 
 .hero-page {
+    margin-top: 90px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -1023,6 +1029,10 @@ body.active {
 
     .responsive-menu {
         display: block;
+    }
+
+    .hero-page {
+        margin-top: 80px;
     }
 }
 
