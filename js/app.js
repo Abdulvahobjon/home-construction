@@ -23,3 +23,12 @@ scrollBtn?.addEventListener('click', (e) => {
 });
 
 AOS.init();
+
+
+let hambutgerMenu = document.querySelector(".responsive-menu")
+let hamburgerBars = document.querySelector(".hamburgerBars")
+let hamburgerClose = document.querySelector(".hamburgerClose")
+
+hamburgerBars.addEventListener('click' , function(){
+    hambutgerMenu.classList.add('active')
+})
