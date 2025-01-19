@@ -127,9 +127,13 @@ img {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
 .hero-container {
     position: relative;
+    width: 100%;
 }
 
 .hero-text {
@@ -182,7 +186,6 @@ img {
     transition: transform 0.3s;
     position: absolute;
     right: 20px;
-    bottom: -45%;
 }
 
 .hero-btn img {
