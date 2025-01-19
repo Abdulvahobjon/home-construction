@@ -1,0 +1,46 @@
+:root {
+    --swiper-pagination-bullet-inactive-color: rgb(201, 201, 201);
+}
+
+.testimonial {
+    margin: 2rem 0 8rem;
+    position: relative;
+}
+
+.testimonial-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1;
+    max-width: 1100px;
+    margin: auto;
+}
+
+@media screen and (max-width: 1100px) {
+    .testimonial-title {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .testimonial-title {
+        font-size: 30px;
+    }
+
+    .testimonial {
+        margin: 0 0 8rem;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .testimonial-title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .testimonial-title {
+        font-size: 20px;
+    }
+}
