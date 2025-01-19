@@ -59,6 +59,8 @@ if(document.querySelector(".responsive-menu")){
 
 
 
+
+
 let aboutVideoClose = document.querySelector(".about-video-close");
 let aboutVideo = document.querySelector(".about-video");
 let aboutBtn = document.querySelector(".about-btn");
