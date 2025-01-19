@@ -108,7 +108,7 @@ a {
 /* testimonial start */
 
 .testimonial {
-    margin: 4rem 0 8rem;
+    margin: 2rem 0 8rem;
     position: relative;
 }
 
@@ -343,6 +343,12 @@ a {
 
     .swiper {
         max-width: 560px;
+        margin-top: 2rem;
+    }
+
+    .testimonial {
+        margin: 0 0 8rem;
+        position: relative;
     }
 }
 
