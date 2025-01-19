@@ -42,12 +42,12 @@ let hambutgerMenu = document.querySelector(".responsive-menu")
 let hamburgerBars = document.querySelector(".hamburgerBars")
 let hamburgerClose = document.querySelector(".hamburgerClose")
 
-hamburgerBars.addEventListener('click' , function(){
+hamburgerBars?.addEventListener('click' , function(){
     hambutgerMenu.classList.add('active')
     document.body.classList.add("active")
 })
 
-hamburgerClose.addEventListener('click' , function(){
+hamburgerClose?.addEventListener('click' , function(){
     hambutgerMenu.classList.remove('active')
     document.body.classList.remove("active")
 
