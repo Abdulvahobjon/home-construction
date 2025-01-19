@@ -8,8 +8,11 @@ filterButtons?.forEach(filterButton => {
 
         if (isActiveBtn) return;
 
-        filterButtons.forEach(filterBtn => filterBtn.classList.remove('active'));
-        filterButton.classList.add('active');
+        // Hamma tugmalardan active va filter-btn-dark klasslarini olib tashlaymiz
+        filterButtons.forEach(filterBtn => filterBtn.classList.remove('active', 'filter-btn-dark'));
+
+        // Joriy tugmaga active va filter-btn-dark klasslarini qo'shamiz
+        filterButton.classList.add('active', 'filter-btn-dark');
 
         galleryItems.forEach(item => {
             item.classList.add("hidden");
