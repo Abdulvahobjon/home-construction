@@ -578,6 +578,12 @@ img {
     outline-offset: 5px;
 }
 
+@media (max-width: 768px) {
+    .california-card{
+        height: 330px;
+    }
+}
+
 /* swiper end swiper-pagination-bullet-active*/
 
 /* california end */
