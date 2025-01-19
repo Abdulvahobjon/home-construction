@@ -9,6 +9,7 @@ new Swiper(".mySwiper", {
         el: ".swiper-pagination",
         clickable: true,
     },
+    loop: true,
     breakpoints: {
         0: {
             slidesPerView: 1,
