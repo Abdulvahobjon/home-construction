@@ -120,7 +120,7 @@ img {
 
 /* hero start */
 .hero {
-    padding-top: 50px;
+    padding-top: 60px;
     padding-bottom: 100px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/wrapper/banner.png);
     background-position: center;
@@ -220,7 +220,7 @@ img {
         bottom: -45%;
     }
     .hero-title {
-        font-size: 60px;
+        font-size: 48px;
         line-height: 1;
     }
 }
@@ -287,11 +287,10 @@ img {
         width: 100%;
     }
     .product {
-        padding-top: 80px;
-        padding-bottom: 80px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
-   
     .product-banner {
         max-width: 668px;
         height: 317px;
@@ -392,7 +391,6 @@ img {
     transform: scale(1.1);
 }
 
-
 .about-container {
     max-width: 1404px;
     margin-left: auto;
@@ -458,26 +456,26 @@ img {
 
 @media (max-width: 768px) {
     .about {
-      background-size: cover;
-      padding-top: 80px;
-      padding-bottom: 80px;
-  }
-  .about-title {
-    color: #ffffff;
-    font-size: 28px;
-    max-width: 548px;
-    margin-bottom: 34px;
-    font-weight: 600;
-    line-height: 33px;
-    text-align: left;
-}
-.about-link{
-    margin-bottom: 60px;
-}
-.about-btn{
-    width: 80px;
-    height: 80px;
-}
+        background-size: cover;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .about-title {
+        color: #ffffff;
+        font-size: 28px;
+        max-width: 548px;
+        margin-bottom: 34px;
+        font-weight: 600;
+        line-height: 33px;
+        text-align: left;
+    }
+    .about-link {
+        margin-bottom: 60px;
+    }
+    .about-btn {
+        width: 80px;
+        height: 80px;
+    }
 }
 
 /* about end */
@@ -637,10 +635,10 @@ img {
     line-height: 26px;
     opacity: 0.7;
 }
-@media (max-width:768px) {
-    .benefits{
-        padding-top: 80px;
-        padding-bottom: 80px;
+@media (max-width: 768px) {
+    .benefits {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .benefits-items {
         display: grid;
@@ -661,21 +659,21 @@ img {
         font-weight: 500;
         margin-bottom: 20px;
     }
-    .benefits-item{
+    .benefits-item {
         padding: 0;
     }
-    
-.benefits-item p {
-    color: #21201e;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 20px;
-    opacity: 0.7;
-}
-.california{
-    padding-left: 0;
-    padding-right: 0;
-}
+
+    .benefits-item p {
+        color: #21201e;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        opacity: 0.7;
+    }
+    .california {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 /* benefits end */
 
