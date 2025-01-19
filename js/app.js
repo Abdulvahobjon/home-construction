@@ -32,3 +32,7 @@ let hamburgerClose = document.querySelector(".hamburgerClose")
 hamburgerBars.addEventListener('click' , function(){
     hambutgerMenu.classList.add('active')
 })
+
+hamburgerClose.addEventListener('click' , function(){
+    hambutgerMenu.classList.remove('active')
+})
