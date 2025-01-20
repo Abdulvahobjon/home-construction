@@ -63,11 +63,13 @@ if(document.querySelector(".responsive-menu")){
 
 let aboutVideoClose = document.querySelector(".about-video-close");
 let aboutVideo = document.querySelector(".about-video");
+let videoElem = document.querySelector(".about-video video");
 let aboutBtn = document.querySelector(".about-btn");
 
 // aboutVideoClose tugmasi bosilganda active klassini olib tashlaymiz
 aboutVideoClose?.addEventListener("click", () => {
     aboutVideo?.classList.remove("active");
+    videoElem.pause();
 });
 
 // aboutBtn tugmasi bosilganda active klassini qo'shamiz
