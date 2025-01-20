@@ -864,13 +864,15 @@ body.active {
     background-color: transparent;
 }
 
-.about-video iframe {
+.about-video iframe,
+.about-video video {
     width: 100%;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 @media (max-width: 540px) {
-    .about-video iframe {
+    .about-video iframe,
+    .about-video video {
         height: 250px;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
