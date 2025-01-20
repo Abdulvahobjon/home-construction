@@ -611,7 +611,7 @@ img {
 }
 
 .benefits-container {
-    max-width: 1580px;
+    max-width: 1444px;
     margin: auto;
     padding: 15px;
 }
@@ -899,13 +899,16 @@ body.active {
 .footer-left {
     display: flex;
     flex-direction: column;
+    align-items: start;
     gap: 25px;
 }
 .footer-logo {
+    width: 100px;
 }
 .footer-list {
     display: flex;
     gap: 40px;
+
 }
 .footer-link {
     font-family: Livvic, sans-serif;
